@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "dqc-dev-summit-2019-client-side-solution",
+    "id": "405c5458-7c48-4ae5-95c4-da0e691bd26a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/dqc-dev-summit-2019.sppkg"
+  }
+}

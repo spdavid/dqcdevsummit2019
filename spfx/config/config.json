@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "chat-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/chat/ChatWebPart.js",
+          "manifest": "./src/webparts/chat/ChatWebPart.manifest.json"
+        }
+      ]
+    },
+    "tweet-watcher-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tweetWatcher/TweetWatcherWebPart.js",
+          "manifest": "./src/webparts/tweetWatcher/TweetWatcherWebPart.manifest.json"
+        }
+      ]
+    },
+    "demo-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/demoWp/DemoWpWebPart.js",
+          "manifest": "./src/webparts/demoWp/DemoWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ChatWebPartStrings": "lib/webparts/chat/loc/{locale}.js",
+    "TweetWatcherWebPartStrings": "lib/webparts/tweetWatcher/loc/{locale}.js",
+    "DemoWpWebPartStrings": "lib/webparts/demoWp/loc/{locale}.js"
+  }
+}

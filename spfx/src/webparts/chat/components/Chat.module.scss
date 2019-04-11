@@ -1,0 +1,9 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.slide-fade-enter-active, .slide-fade-leave-active {
+  transition: all 1s ease;
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  height: 0px;
+  overflow-y: hidden;
+  opacity: 0;
+}

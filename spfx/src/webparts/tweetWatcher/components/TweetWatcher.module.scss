@@ -1,0 +1,44 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+#twitterApp
+{
+.hashTag
+{
+  text-align: center;
+  font-family: 'Arvo',serif;
+  font-size : 40px;
+  color: #1da1f2;
+
+}
+
+.followme
+{
+  text-align: center;
+  .twitterBlue
+  {
+  color: #1da1f2;
+
+  }
+}
+
+.tweetCount
+{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+  .tweetContainer
+  {
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .tweetUser
+  {
+    color: #1da1f2;
+    font-weight: bold;
+  }
+}
+
+

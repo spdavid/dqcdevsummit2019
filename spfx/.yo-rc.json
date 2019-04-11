@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.8.0",
+    "libraryName": "dqc-dev-summit-2019",
+    "libraryId": "405c5458-7c48-4ae5-95c4-da0e691bd26a",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
